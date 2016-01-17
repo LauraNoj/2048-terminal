@@ -20,6 +20,9 @@ class Board:
             for y in range(self.w):
                 print(self.getval(x, y)),
             print("|")
+
+    def test(self):
+        print("TEST")
             
             
         
